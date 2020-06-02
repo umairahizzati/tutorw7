@@ -1,0 +1,43 @@
+*{
+  font-family: Arial;
+}
+body{
+  color: blue;
+  background-color: #E6E6FA;
+  border: 1px solid black;
+}
+h1{
+  color: #191970;
+  font-family: Times New Roman;
+}
+h2{
+  border: 3px dashed blue;
+}
+p{
+  color: red;
+}
+.classforContact{
+  color: #291970;
+  border: 3px dashed blue;
+}
+.table2{
+  border-collapse: collapse;
+  border: 2px solid rgb(190,190,190);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  color: blue;
+}
+td, th{
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+  text-align: center;
+}
+tr:nth-child(odd) td{
+  background-color: grey;
+}
+caption{
+  padding: 10px;
+}
+#IDselector{
+  background-color: #591970;
+}
